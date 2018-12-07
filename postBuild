@@ -8,5 +8,5 @@ julia -e 'if (VERSION > v"0.7-") using Pkg; else Pkg.init(); end; Pkg.clone("htt
 julia -e 'if (VERSION < v"0.7-") using IJulia; IJulia.installkernel("Julia nodeps", "--depwarn=no"); end;'
 
 
-# mkdir /Users/marcoproto/notebooks
-# cd /Users/marcoproto/notebooks
+mkdir /home/marcoproto/notebooks
+cd /home/marcoproto/notebooks
