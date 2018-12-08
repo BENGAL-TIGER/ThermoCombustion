@@ -7,7 +7,7 @@
 - pint
 - bokeh
 - appmode
-- pip
+- CoolProp (pip)
 
 #### Julia
 - Unitful
@@ -15,3 +15,4 @@
 - PyCall
 - PyPlot
 - Gadfly
+- CoolProp (postBuild)
