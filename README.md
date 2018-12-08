@@ -1,7 +1,7 @@
-# BENGAL TIGER LAB  
-## Calculation Suite for Thermodynamics and Combustion  
+# theComb_JuPy
+### BENGAL TIGER LAB Calculation Suite for Thermodynamics and Combustion  
 
-### Python 3.7
+#### Python 3.7
 - matplotlib
 - numpy
 - pint
@@ -9,8 +9,7 @@
 - appmode
 - pip
 
-
-### Julia
+#### Julia
 - Unitful
 - Plots
 - PyCall
