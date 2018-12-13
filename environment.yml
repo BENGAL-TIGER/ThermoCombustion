@@ -8,6 +8,5 @@ dependencies:
   - appmode
   - pip
   - pip:
-      - julia 0.7
-      - julia 1.0
+      - julia
       - CoolProp
