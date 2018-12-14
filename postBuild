@@ -7,7 +7,23 @@ julia -e 'if (VERSION > v"0.7-") using Pkg; else Pkg.init(); end; Pkg.clone("htt
 # Disable deprecated warnings in Julia 0.6
 julia -e 'if (VERSION < v"0.7-") using IJulia; IJulia.installkernel("Julia nodeps", "--depwarn=no"); end;'
 
+#
+# install typescript/itypescript
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+### gets nvm running
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+###
 
+nvm install node
+node -v
+npm -v
+npm install -g typescript
+npm install -g itypescript
+its --ts-install=local
+#
+#
 
 mkdir $HOME/notebooks
 
